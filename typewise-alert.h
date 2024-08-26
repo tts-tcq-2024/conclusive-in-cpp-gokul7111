@@ -1,5 +1,17 @@
 #pragma once
 
+typedef struct
+{
+    double lowerlimit;
+    double upperlimit;
+}TemperatureLimits;
+
+typedef struct
+{
+    char* mailsubject;
+    char* mailbody;
+}email;
+
 typedef enum {
   PASSIVE_COOLING,
   HI_ACTIVE_COOLING,
